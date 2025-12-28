@@ -14,8 +14,10 @@ This is an example from Steve Brunton's Data-book
 
 # Installation
 
+```bash
 git clone https://github.com/Imdadullah-Raji/ddse_control.git
 cd ddse_control
+```
 
 # Usage
  edit and run `lqr_cartpend.py` to generate the csv file containing the trajectory. Then run `cartpend_animations0.py` to visualize.
