@@ -50,6 +50,9 @@ if __name__ == "__main__":
 
     print("Final state: ", x[-1])
 
+    data = np.column_stack( (t_span, x[:, 0], x[:,2]) )
+    np.savetxt("lqr_cartpend_data.csv", data, delimiter=",")
+
     #plot results 
 
     fig, ax = plt.subplots( 2,1, figsize=(8,6))
