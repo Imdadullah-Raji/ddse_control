@@ -14,9 +14,20 @@ This is an example from Steve Brunton's Data-book
 
 # Installation
 
+Create a virtual environment(recommended). 
+```bash
+python3 -m venv cartpend_env
+cd cartpend_env
+.\cartpend_env\Scripts\activate
+```
+Clone the repository:
 ```bash
 git clone https://github.com/Imdadullah-Raji/ddse_control.git
 cd ddse_control
+```
+Install required libraries:
+```bash
+pip install -r requirements.txt
 ```
 
 # Usage
