@@ -14,11 +14,12 @@ This is an example from Steve Brunton's Data-book
 
 # Installation
 
-Create a virtual environment(recommended). 
+## Create a virtual environment(recommended). 
+Open windows command prompt(cmd) and type in:
 ```bash
-python3 -m venv cartpend_env
+python -m venv cartpend_env
 cd cartpend_env
-.\cartpend_env\Scripts\activate
+.\Scripts\activate
 ```
 Clone the repository:
 ```bash

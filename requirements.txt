@@ -1,4 +1,4 @@
-python-control
+control
 numpy
 scipy
 matplotlib
